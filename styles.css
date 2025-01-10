@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Georgia', serif;
+}
+
+body {
+    background-color: rgb(237, 243, 245);
+}
+
+div#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 25px;
+    margin: 100px 500px;
+    position: absolute;
+
+    background-color: rgb(178, 179, 248);
+    border: 0.2rem solid rgb(178, 1791 248);
+    border-radius: 1rem;
+
+    width: 400px;
+    max-height: 400px;
+}
+
+h1 {
+    padding: 15px 0 ;
+    color:rgb(12, 12, 11);
+    position: absolute;
+}
+
+img {
+    margin-right: 400px;
+    max-width: 100vh;
+    position: relative;
+    display: flex;
+}
+
+form#todo-form {
+    display: flex;
+    height: 30px;
+    position: absolute;
+    margin-top: 60px;
+}
+
+input#task-title-input {
+    font-size: 15px;
+}
+
+button#add-task-button {
+    background-color: rgb(241, 101, 206);
+    width: 100px;
+    border-radius: 8px;
+    border-color: rgb(241, 101, 206);
+    font-size: 18px;
+}
+
+button#add-task-button:hover {
+    background-color: rgb(194, 26, 152);
+}
+
+ul#todo-list {
+    padding: 13px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 20px;
+    position: absolute;
+    margin-top: -450px;
+    margin-left: -130px;
+}
+
+span {
+    font-size: 20px;
+    padding: 10px;
+}
+
+input {
+    font-size: 15px;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    margin-left: 13px;
+    background-color: darkorchid;
+    border-color: darkorchid;
+    color: aliceblue;
+    border-radius: 0.5rem;
+    font-size: 18px;
+    cursor: pointer;
+    font-family: 'Segoe UI',  sans-serif;
+}
+
+button:hover {
+    background-color: darkmagenta;
+}
